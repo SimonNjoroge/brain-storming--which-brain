@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singason</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/smile.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <header>
+        <h2  class="logo">Simon</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class="uil uil-cancel"></i>
+        </span>
+        <div class="form-box login" >
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-envelope"></i></span>
+                    <input type="email" name="email" required>
+                    <label >Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-padlock"></i></span>
+                    <input type="password" name="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for="#"> <input type="checkbox" name="checkbox" >Remember Me</label>
+                   <a href="#">Forgot Password ?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?   <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+            
+        </div>
+
+
+
+        <!-- register form -->
+        <div class="form-box register">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-user"></i></span>
+                    <input type="text" name="text" required>
+                    <label >Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-envelope"></i></span>
+                    <input type="email" name="email" required>
+                    <label >Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-lock"></i></span>
+                    <input type="password" name="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for="#"> <input type="checkbox" name="checkbox" id="checkbox" required>I agree to terms & Conditions</label>
+                   <a href="#">Forgot Password ?</a>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?   <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+<script src="./js/script.js"></script>
+</body>
+</html>
